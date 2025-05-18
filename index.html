@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orcasm - Official Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: #111;
+      padding: 0;
+    }
+header {
+  background: #000;
+  padding: 80px 120px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo img {
+  height: auto;
+  max-height: 120px;
+}
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 768px;
+      margin: auto;
+    }
+
+    .product {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      border: 1px solid #eee;
+      border-radius: 16px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .product img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .product-details {
+      flex: 1;
+    }
+
+    .product-details h2 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
+    .product-details p {
+      margin: 4px 0 0;
+      color: #555;
+    }
+
+    .buy-button {
+      background: black;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      color: #aaa;
+      font-size: 0.75rem;
+      margin: 60px auto 20px;
+    }
+
+    .faq-item {
+      margin-bottom: 20px;
+    }
+
+    .faq-item h4 {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigasi -->
+  <header>
+  <div class="header-container">
+    <div class="logo">
+  <img src="images/logo.png" alt="Never Surrender" style="height:100px;" />
+</div>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#produk">Produk</a>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+  <!-- Beranda -->
+  <section id="beranda" class="section">
+    <h2>Selamat datang di Official Store Orcasm</h2>
+    <p>Koleksi fashion penuh semangat dan gaya yang autentik. Temukan yang cocok untukmu!</p>
+  </section>
+
+  <!-- Produk -->
+  <section id="produk" class="section">
+    <h2>Produk Kami</h2>
+
+    <div class="product">
+      <img src="images/tshirt.jpg" alt="T-Shirt" />
+      <div class="product-details">
+        <h2>T-Shirt Orcasm Lady Burn</h2>
+        <p>Rp150.000</p>
+      </div>
+      <a href="https://wa.me/6282121663767?text=Halo%20saya%20mau%20pesan%20produk%20T-Shirt%20Never%20Surrender" target="_blank" class="buy-button">Beli via WA</a>
+    </div>
+
+    <div class="product">
+      <img src="images/hoodie.jpg" alt="Hoodie" />
+      <div class="product-details">
+        <h2>Hoodie Orc Devil</h2>
+        <p>Rp300.000</p>
+      </div>
+      <a href="https://wa.me/6282121663767?text=Halo%20saya%20mau%20pesan%20produk%20Hoodie%20NS%20Edition" target="_blank" class="buy-button">Beli via WA</a>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="tentang" class="section">
+    <h2>Tentang Kami</h2>
+    <p>Orcasm adalah brand fashion yang mewakili semangat juang, kreativitas, dan ekspresi diri. Kami hadir untuk kamu yang ingin tampil beda dan penuh makna.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <h4>Apakah bisa pesan lewat WhatsApp?</h4>
+      <p>Ya! Semua produk bisa langsung kamu pesan lewat tombol “Beli via WA”.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Apakah bisa COD?</h4>
+      <p>Untuk saat ini kami hanya menerima pembayaran via transfer. COD sedang dalam proses pengembangan.</p>
+    </div>
+    <!-- Tambah pertanyaan lain jika perlu -->
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Orcasm. All rights reserved.
+  </footer>
+
+</body>
+</html>
